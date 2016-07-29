@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane maxHeight="-Infinity" 
+maxWidth="-Infinity" minHeight="-Infinity" 
+minWidth="-Infinity" prefHeight="387.0" prefWidth="352.0"
+ xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+ fx:controller="controller.RegistController">
+   <children>
+      <GridPane layoutX="55.0" layoutY="23.0" prefHeight="248.0" prefWidth="184.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="106.0" minWidth="10.0" prefWidth="78.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="122.0" minWidth="10.0" prefWidth="122.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="ID" />
+            <Label text="Password" GridPane.rowIndex="1" />
+            <Label text="Name" GridPane.rowIndex="2" />
+            <Label text="P.H" GridPane.rowIndex="3" />
+            <Label text="Age" GridPane.rowIndex="4" />
+            <TextField fx:id="idTextField" GridPane.columnIndex="1" />
+            <TextField fx:id="passTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="nameTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Button fx:id="submitBtn" layoutX="92.0" layoutY="321.0" mnemonicParsing="false" text="Submit" />
+      <Button fx:id="backBtn" layoutX="212.0" layoutY="321.0" mnemonicParsing="false" text="Back" />
+   </children>
+   <padding>
+      <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+   </padding>
+</AnchorPane>

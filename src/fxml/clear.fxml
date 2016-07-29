@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="okBtn" layoutX="238.0" layoutY="88.0" mnemonicParsing="false" text="확인" />
+      <Label fx:id="msg" layoutX="15.0" layoutY="48.0" text="작업을 성공적으로 처리했습니다. 로그인해주세요" />
+   </children>
+</AnchorPane>
